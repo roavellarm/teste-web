@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
   image: {
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100% auto',
-    backgroundImage: 'url(/images/dogo-barking.gif)',
+    backgroundImage: 'url(https://source.unsplash.com/random/600x800)',
     backgroundPosition: 'top',
     backgroundColor: 'white',
   },
