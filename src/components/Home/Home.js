@@ -8,7 +8,8 @@ import {
   responsiveFontSizes,
   ThemeProvider,
 } from '@material-ui/core/styles'
-import { Layout } from './templates'
+import { Layout } from '../templates'
+import { ProductSection } from './'
 
 let theme = createMuiTheme()
 theme = responsiveFontSizes(theme)
@@ -84,6 +85,7 @@ export default () => {
           </Typography>
         </ThemeProvider>
       </Grid>
+      <ProductSection />
     </>
   )
   return <Layout content={home} />
