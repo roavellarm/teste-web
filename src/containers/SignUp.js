@@ -41,7 +41,7 @@ export default withRouter(({ history }) => {
           currentUser: response.data.data,
         })
 
-        history.push('/dashboard')
+        history.push('/')
       }
     } catch (error) {
       setStore({ isSubmitting: false })

@@ -1,6 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ca099450-2f14-407a-9ce8-2a5ba94485ef/deploy-status)](https://app.netlify.com/sites/room-web/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6fc0315-7288-48f0-92d2-eea04f8fa276/deploy-status)](https://app.netlify.com/sites/teste-web/deploys)
 
 # TESTE-Web
+
+You can find this project at https://teste-web.netlify.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

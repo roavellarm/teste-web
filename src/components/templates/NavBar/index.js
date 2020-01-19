@@ -49,7 +49,7 @@ export default withRouter(({ isAuthenticated, history }) => {
             </StyledLink>
           </Typography>
           {isAuthenticated && (
-            <StyledLink to="/dashboard">
+            <StyledLink to="/">
               <IconButton color="inherit" aria-label="menu">
                 <Tooltip title="Dashboard">
                   <DashboardIcon />

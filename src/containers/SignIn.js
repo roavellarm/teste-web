@@ -34,7 +34,7 @@ export default withRouter(({ history }) => {
           currentUser: response.data.data,
         })
         // Clean user data from the fields after submit
-        history.push('/dashboard')
+        history.push('/')
       }
     } catch (error) {
       setStore({ isSubmitting: false })
